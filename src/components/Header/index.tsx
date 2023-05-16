@@ -1,8 +1,9 @@
 import Image from "next/image";
+import { FunctionComponent } from "react";
 
-import { navItems } from "../../utils/constants";
+import { navItems } from "@/utils/constants";
 
-const Header = () => {
+const Header: FunctionComponent = () => {
   return (
     <header className="sticky top-0 flex min-w-full min-h-[60px] flex-row justify-between items-center px-10">
       <div className="text-black uppercase text-xl">My Company.com</div>

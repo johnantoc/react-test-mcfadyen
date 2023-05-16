@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery, retry } from "@reduxjs/toolkit/query/react";
 import { FetchArgs } from "@reduxjs/toolkit/dist/query/fetchBaseQuery";
 import { HYDRATE } from "next-redux-wrapper";
 
-import { apiBaseUrl } from "../../utils/constants";
+import { apiBaseUrl } from "@/utils/constants";
 
 /**
  * @description - API Slice of the global store.

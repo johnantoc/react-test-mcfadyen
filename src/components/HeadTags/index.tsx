@@ -2,7 +2,7 @@ import { Fragment, FunctionComponent, ReactNode } from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
 
-import { appUrl } from "../../utils/constants";
+import { appUrl } from "@/utils/constants";
 
 type ComponentProps = {
   children?: ReactNode;

@@ -1,5 +1,5 @@
-import { AppStore } from "../index";
-import { appStateSliceName } from "../slices/appStateSlice";
+import { AppStore } from "@/store";
+import { appStateSliceName } from "@/store/slices/appStateSlice";
 
 const getAppReducer = (state: any) => state[appStateSliceName];
 
