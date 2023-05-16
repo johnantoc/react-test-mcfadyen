@@ -44,7 +44,7 @@ const Button = (props: ButtonProps) => {
       disabled={disabled}
       className={`rounded-full flex justify-center items-center border ${className} ${buttonSizeStyle} ${
         selected ? "bg-black text-white" : ""
-      }`}
+      } ${disabled ? "line-through decoration-2" : ""}`}
       onClick={onClick}
     >
       {leftIcon && (

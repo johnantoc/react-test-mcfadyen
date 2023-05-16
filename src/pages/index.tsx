@@ -17,10 +17,10 @@ export default function Home() {
   }
 
   return (
-    <div className="flex min-w-screen flex-row bg-white">
-      <section className="flex min-h-screen flex-col flex-initial bg-red"></section>
-      <main className="flex min-h-screen flex-col flex-1 bg-green"></main>
-      <section className="flex min-h-screen flex-col flex-initial bg-blue">
+    <div className="flex grow min-w-screen flex-row bg-white">
+      <section className="flex flex-col flex-initial bg-red"></section>
+      <main className="flex flex-col flex-1 bg-green"></main>
+      <section className="flex flex-col flex-initial bg-blue">
         <Button
           size="small"
           text="XS"

@@ -7,7 +7,7 @@ type Props = {
 
 function DefaultLayout({ children }: Props) {
   return (
-    <div className="flex min-w-screen flex-col relative">
+    <div className="flex min-w-screen min-h-screen flex-col relative">
       <Header />
       {children}
     </div>

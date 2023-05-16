@@ -5,10 +5,10 @@ import { navItems } from "@/utils/constants";
 
 const Header: FunctionComponent = () => {
   return (
-    <header className="sticky top-0 flex min-w-full min-h-[60px] flex-row justify-between items-center px-10">
+    <header className="sticky top-0 flex grow-0 min-w-full min-h-[60px] flex-row justify-between items-center px-10">
       <div className="text-black uppercase text-xl">My Company.com</div>
       <nav>
-        <ul className="flex flex-row gap-[8px]">
+        <ul className="flex flex-row gap-[16px]">
           {navItems.map((listItem) => (
             <li key={listItem} className="text-black uppercase text-sm">
               {listItem}
