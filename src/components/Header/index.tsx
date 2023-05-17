@@ -6,7 +6,7 @@ import { navItems } from "@/utils/constants";
 const Header: FunctionComponent = () => {
   return (
     <header className="sticky z-[99999] bg-white top-0 flex grow-0 min-w-full min-h-[60px] flex-row items-center px-4 lg:px-10">
-      <div className="text-black uppercase text-lg lg:text-lg whitespace-nowrap w-1/2 lg:w-1/5">
+      <div className="text-black uppercase text-xl whitespace-nowrap w-1/2 lg:w-1/5">
         My Company.com
       </div>
       <nav className="hidden lg:block w-0 lg:w-3/5">

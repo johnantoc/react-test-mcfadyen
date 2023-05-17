@@ -24,12 +24,15 @@ export default function Home() {
   return (
     <>
       <main className="flex flex-col lg:flex-row grow min-w-screen bg-white justify-center relative px-4 lg:px-10">
+        {/** Tabbed Details Panel section */}
         <section
           id="tabbedDetails"
           className="flex flex-col flex-initial w-full lg:w-1/4 h-fit order-3 lg:order-1 static lg:sticky lg:top-[70px] pt-[40px] lg:pt-0 min-h-[300px]"
         >
           <TabbedPanel />
         </section>
+
+        {/** Images Carousel section */}
         <section
           id="imageSection"
           className="flex flex-col w-full order-1 lg:order-2 lg:w-2/4 relative"
@@ -48,12 +51,14 @@ export default function Home() {
           </div>
           <ImageCarousel />
         </section>
+
+        {/** Details section with add to cart CTA */}
         <section
           id="shoppingDetails"
           className="flex flex-col gap-[24px] flex-initial w-full h-fit lg:w-1/4 pt-10 order-2 lg:order-3 static lg:sticky lg:top-[70px]"
         >
           <div className="flex flex-col gap-[4px]">
-            <h1 className="text-3lg lg:text-5lg">JONATHAN SIMKHAI</h1>
+            <h1 className="text-3xl lg:text-5xl">JONATHAN SIMKHAI</h1>
             <span className="text-sm">
               Lurex Linen Viscose Jacket in Conchiglia
             </span>
@@ -117,6 +122,8 @@ export default function Home() {
           <span className="text-sm">Speak to a Personal Stylist CHAT NOW</span>
         </section>
       </main>
+
+      {/** Rest of the page section */}
       <section
         id="editorNotes"
         className="flex flex-col gap-[16px] w-full items-center py-24"
@@ -129,7 +136,7 @@ export default function Home() {
           ))}
         </ul>
         <span className="text-sm uppercase pt-24">a note from the editor</span>
-        <span className="text-lg lg:text-3lg w-full lg:w-1/2 text-center px-[18px]">
+        <span className="text-xl lg:text-3xl w-full lg:w-1/2 text-center px-[18px]">
           The Forte Lurex Linen Viscose Jacket in Mother of Pearl features lunar
           lavishness by night and by day: a blazer in a linen blend shot with
           lurex for a shimmering surface that shines like a star in the sky.{" "}
