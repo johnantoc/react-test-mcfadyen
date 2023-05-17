@@ -135,7 +135,9 @@ export default function Home() {
             </li>
           ))}
         </ul>
-        <span className="text-sm uppercase pt-24">a note from the editor</span>
+        <span className="text-sm uppercase pt-24 font-['Roboto-bold']">
+          a note from the editor
+        </span>
         <span className="text-xl lg:text-3xl w-full lg:w-1/2 text-center px-[18px]">
           The Forte Lurex Linen Viscose Jacket in Mother of Pearl features lunar
           lavishness by night and by day: a blazer in a linen blend shot with

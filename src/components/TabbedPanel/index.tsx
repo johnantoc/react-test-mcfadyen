@@ -16,7 +16,9 @@ function Tab({ title, isActive, onShow }: TabProps) {
     <button
       onClick={onShow}
       className={`uppercase text-sm ${
-        isActive ? "text-black border-b-2 border-black" : "text-gray-400"
+        isActive
+          ? "text-black border-b-2 border-black font-[Roboto-bold]"
+          : "text-gray-400"
       }`}
     >
       {title}
