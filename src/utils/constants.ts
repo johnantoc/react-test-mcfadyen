@@ -2,7 +2,7 @@ export const apiBaseUrl = "https://jsonplaceholder.typicode.com/";
 export const appUrl =
   process.env.NODE_ENV === `development`
     ? "http://localhost:3000"
-    : process.env.APP_URL;
+    : `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`;
 export const navItems = [
   "The Edit",
   "New Arrivals",
