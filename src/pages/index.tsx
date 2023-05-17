@@ -86,12 +86,15 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-col gap-[12px]">
-            <span className="text-sm uppercase">
-              <span className="text-sm font-bold font-['Roboto-bold'] pr-[6px]">
-                Size
+            <div className="flex justify-between">
+              <span className="text-sm uppercase">
+                <span className="text-sm font-bold font-['Roboto-bold'] pr-[6px]">
+                  Size
+                </span>
+                {selectedButton}
               </span>
-              {selectedButton}
-            </span>
+              <span className="text-sm uppercase underline">SIZE GUIDE</span>
+            </div>
             <div
               className="flex flex-wrap gap-[4px]"
               onClickCapture={onClickHandler}

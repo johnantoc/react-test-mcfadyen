@@ -49,3 +49,6 @@ body {
   font-family: 'Roboto-light';
 }
 
+.imagecarousel::-webkit-scrollbar {
+  display: none;
+}
