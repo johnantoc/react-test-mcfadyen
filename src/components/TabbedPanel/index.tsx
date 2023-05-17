@@ -16,7 +16,7 @@ function Tab({ title, isActive, onShow }: TabProps) {
     <button
       onClick={onShow}
       className={`uppercase text-sm ${
-        isActive ? "text-black" : "text-gray-400"
+        isActive ? "text-black border-b-2 border-black" : "text-gray-400"
       }`}
     >
       {title}
@@ -61,8 +61,13 @@ const TabbedPanel = () => {
           lurex for a shimmering surface that shines like a star in the sky. it
           has a straight fit with well defined shoulders and a shawl collar
           culminating in a button and has been flawlessly finished with three
-          jet pockets with a sartorial feel. <span>See the EDITOR’S NOTE </span>
-          <span>Learn about the DESIGNER</span>
+          jet pockets with a sartorial feel.
+          <span>
+            See the <u>EDITOR’S NOTE</u>
+          </span>
+          <span>
+            Learn about the <u>DESIGNER</u>
+          </span>
         </p>
       </Panel>
       <Panel isActive={activeIndex === 1}>
