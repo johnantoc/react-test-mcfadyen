@@ -15,3 +15,18 @@ export const navItems = [
   "Beauty",
   "Home",
 ];
+export const images = [
+  { id: "image409.png", url: "/assets/images/image409.png" },
+  { id: "image410.png", url: "/assets/images/image410.png" },
+  { id: "image411.png", url: "/assets/images/image411.png" },
+  { id: "image412.png", url: "/assets/images/image412.png" },
+  { id: "image413.png", url: "/assets/images/image413.png" },
+];
+export const tags = ["Jonathan Simkhai", "Blazers", "Viscose"];
+export const sizes = [
+  { id: "xs", value: "XS", available: true },
+  { id: "s", value: "S", available: true },
+  { id: "m", value: "M", available: false },
+  { id: "l", value: "L", available: true },
+  { id: "xxl", value: "XXL", available: true },
+];
