@@ -37,16 +37,13 @@ export default function Home() {
           id="imageSection"
           className="flex flex-col w-full order-1 lg:order-2 lg:w-2/4 relative"
         >
-          <div className="sticky flex top-[70px] justify-end h-[20px] z-[9999]">
+          <div className="sticky flex lg:top-[70px] justify-end h-[20px] z-[9999]">
             <Image
               src="/assets/images/Unfilled.svg"
               alt="favorites"
               height={20}
               width={18}
-              style={{
-                objectFit: "contain",
-                marginRight: "40px",
-              }}
+              className="mr-[8px] lg:mr-[40px] object-contain"
             />
           </div>
           <ImageCarousel />
